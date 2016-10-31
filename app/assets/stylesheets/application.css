@@ -1,0 +1,101 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ #container {
+   top: 0;
+   left: 0;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background-color: rgb(237,237,237);
+ }
+
+ #write {
+   width: 100%;
+   line-height: normal;
+   background: #fff;
+   border: 1px solid #000;
+   resize: none;
+   margin: 0 0 5% 0;
+ }
+
+ #keyboard {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+ #keyboard li {
+   margin: 1%;
+   padding: 2%;
+   line-height: normal;
+   text-align: center;
+   background: #fff;
+   border: 1px solid #f9f9f9;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+ }
+
+ .lastitem {
+   margin-right: 0;
+ }
+
+ .uppercase {
+   text-transform: uppercase;
+ }
+
+ #keyboard .space {
+   clear: left;
+ }
+
+ .on {
+   display: none;
+ }
+
+ #keyboard li:hover {
+   position: relative;
+   top: 1px;
+   left: 1px;
+   border-color: #e5e5e5;
+   cursor: pointer;
+ }
+
+ .flex-container-keyboard {
+   padding: 0;
+   margin: 0;
+   min-height: 100%;
+   list-style: none;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row;
+   justify-content: center;
+ }
+
+ .delete:before {
+   content: '\232B';
+ }
+
+ .space {
+   width: 35%;
+ }
+
+ .keyboard-area {
+   box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+   background-color: rgb(244,244,244);
+ }
