@@ -1,24 +1,7 @@
-# README
+Welcome to my example keyboard.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a custom keyboard that I made for a client project. I wrote a blog post (you can read it at rubyisshiny.tumblr.com) about creating the keyboard. This is the example code for that blog post.
 
-Things you may want to cover:
+If you would like more information about me, please visit my personal website at www.kristinydonovan.com. For any questions or comments, please email me.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks!
